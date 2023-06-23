@@ -127,7 +127,7 @@ class Solution
       else if(right==NULL)
       return left;
       
-      else 
+      else // it means that none is NULL and both return some value which is n1 and n2 hence root is LCA
        return root;
       
        
